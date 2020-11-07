@@ -14,6 +14,7 @@
                         :test-paths     ["test"]
                         :resource-paths ["target" "dev-resources"]}
              :provided {:dependencies [[org.clojure/clojurescript "1.10.773"]
+                                       [instaparse "1.4.10"]
                                        [prismatic/dommy "1.1.0"]]}}
   :clean-targets ^{:protect false} ["target" ".shadow-cljs"]
   :cljfmt {:indents {forward-ref [[:inner 0]]}
